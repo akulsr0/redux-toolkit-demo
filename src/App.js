@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>{value}</h1>
+      <h1>Counter: {value || 0}</h1>
       <ResetButton />
       <AddButton />
       <SubButton />
